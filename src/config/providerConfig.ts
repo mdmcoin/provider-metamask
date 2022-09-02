@@ -1,8 +1,8 @@
 import { IWavesConfig, IProviderMetamaskConfig } from '../Provider.interface';
 
 export const DEFAULT_WAVES_CONFIG: IWavesConfig = {
-	chainId: 87,
-	nodeUrl: 'https://nodes.wavesnodes.com',
+	chainId: 77,
+	nodeUrl: 'https://nodes.mdmcoin.com',
 };
 
 export const DEFAULT_PROVIDER_CONFIG: IProviderMetamaskConfig = {
