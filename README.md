@@ -31,12 +31,12 @@ Add library initialization to your app.
 
 	const signer = new Signer({
 		// Specify URL of the node on Stagenet
-		NODE_URL: 'https://nodes-stagenet.wavesnodes.com'
+		NODE_URL: 'https://nodes.mdmcoin.com'
 	});
 	const provider = new ProviderMetamask({
 		wavesConfig: {
-			nodeUrl: 'https://nodes-stagenet.wavesnodes.com',
-			chainId: 'S'.charCodeAt(0)
+			nodeUrl: 'https://nodes.mdmcoin.com',
+			chainId: 'M'.charCodeAt(0)
 		}
 	});
 	signer.setProvider(provider);
@@ -81,7 +81,7 @@ const [invoke] = await signer
   .broadcast();
 ```
 
-For more information see [Signer documentation](https://github.com/wavesplatform/signer/blob/master/README.md).
+For more information see [Signer documentation](https://github.com/mdmcoin/mdmsigner/blob/master/README.md).
 
 ### 4. How to sign order
 
