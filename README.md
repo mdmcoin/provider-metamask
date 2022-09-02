@@ -55,7 +55,7 @@ Add library initialization to your app.
 
 ### 3. Basic example
 
-Now your application is ready to work with Waves Platform. Let's test it by implementing basic functionality. For example, we could try to authenticate user and transfer funds.
+Now your application is ready to work with MDMCOIN Platform. Let's test it by implementing basic functionality. For example, we could try to authenticate user and transfer funds.
 
 ```js
 const user = await signer.login();
@@ -81,7 +81,7 @@ const [invoke] = await signer
   .broadcast();
 ```
 
-For more information see [Signer documentation](https://github.com/mdmcoin/mdmsigner/blob/master/README.md).
+For more information see [Signer documentation](https://github.com/mdmcoin/MDMCOINsigner/blob/master/README.md).
 
 ### 4. How to sign order
 
