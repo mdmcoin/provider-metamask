@@ -23,7 +23,7 @@ npm i @waves/signer @waves/provider-metamask
 
 Add library initialization to your app.
 
-* For Stagenet:
+* For Mainnet:
 
 	```js
 	import { Signer } from '@waves/signer';
