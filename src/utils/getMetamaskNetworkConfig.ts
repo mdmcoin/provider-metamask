@@ -14,31 +14,31 @@ export const getMetamaskNetworkConfig = (chainId: number): AddEthereumChainParam
 const METAMASK_NETWORK_CONFIG_WAVES_MAINNET: AddEthereumChainParameter = {
 	chainId: '0x' + (87).toString(16),
 	chainName: 'Waves',
-	nativeCurrency: { name: 'WAVES', symbol: 'WAVES', decimals: 18 },
-	rpcUrls: ['https://nodes.wavesnodes.com/eth'],
-	blockExplorerUrls: ['https://wavesexplorer.com'],
+	nativeCurrency: { name: 'MDMCOIN', symbol: 'MDM', decimals: 18 },
+	rpcUrls: ['https://nodes.mdmcoin.com/eth'],
+	blockExplorerUrls: ['https://explorer.mdmcoin.com'],
 };
 
 const METAMASK_NETWORK_CONFIG_WAVES_STAGENET: AddEthereumChainParameter = {
 	chainId: '0x' + (83).toString(16),
 	chainName: 'Waves stagenet',
-	nativeCurrency: { name: 'WAVES', symbol: 'WAVES', decimals: 18 },
-	rpcUrls: ['https://nodes-stagenet.wavesnodes.com/eth'],
-	blockExplorerUrls: ['https://stagenet.wavesexplorer.com'],
+	nativeCurrency: { name: 'MDMCOIN', symbol: 'MDM', decimals: 18 },
+	rpcUrls: ['https://nodes-stagenet.mdmcoin.com/eth'],
+	blockExplorerUrls: ['https://stagenetexplorer.mdmcoin.com'],
 };
 
 const METAMASK_NETWORK_CONFIG_WAVES_TESTNET: AddEthereumChainParameter = {
 	chainId: '0x' + (84).toString(16),
 	chainName: 'Waves testnet',
-	nativeCurrency: { name: 'WAVES', symbol: 'WAVES', decimals: 18 },
-	rpcUrls: ['https://testnode1.wavesnodes.com/eth'],
-	blockExplorerUrls: ['https://testnet.wavesexplorer.com'],
+	nativeCurrency: { name: 'MDMCOIN', symbol: 'MDM', decimals: 18 },
+	rpcUrls: ['https://testnode.mdmcoin.com/eth'],
+	blockExplorerUrls: ['https://testnetexplorer.mdmcoin.com'],
 };
 
 const METAMASK_NETWORK_CONFIG_WAVES_DEVNET: AddEthereumChainParameter = {
 	chainId: '0x' + (67).toString(16),
 	chainName: 'Waves devnet',
-	nativeCurrency: { name: 'WAVES', symbol: 'WAVES', decimals: 18 },
-	rpcUrls: ['https://devnet1-htz-nbg1-4.wavesnodes.com/eth'],
-	blockExplorerUrls: ['https://wavesexplorer.com/custom'],
+	nativeCurrency: { name: 'MDMCOIN', symbol: 'MDM', decimals: 18 },
+	rpcUrls: ['https://devnet.mdmcoin.com/eth'],
+	blockExplorerUrls: ['https://explorer.mdmcoin.com/custom'],
 };
