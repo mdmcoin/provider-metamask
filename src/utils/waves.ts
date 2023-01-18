@@ -3,7 +3,7 @@ import { bytesToHexString } from './common';
 
 
 const WAVES_ASSET_ID_CONVERTED = '0x0000000000000000000000000000000000000000000000000000000000000000';
-const WAVES_ASSET_STRING = 'WAVES';
+const WAVES_ASSET_STRING = 'MDMCOIN';
 const ETHEREUM_DECIMALS = 18;
 
 // export const addressToBytes = (address: string) => bytesToHexString(base58Decode(address));
@@ -52,5 +52,5 @@ export const toEthereumAmount = (amount: number, decimals: number): number => {
 };
 
 export const prepareAssetId = (assetId: string | null) => {
-	return assetId === null ? 'WAVES' : assetId;
+	return assetId === null ? 'MDMCOIN' : assetId;
 };
